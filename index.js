@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @version: 1.0.0
+ * @Author: 孙立政
+ * @Date: 2023-08-17 21:23:01
+ * @LastEditors: 孙立政
+ * @LastEditTime: 2023-08-17 21:34:56
+ */
 const express = require("express");
 const axios = require('axios');
 const tf = require('@tensorflow/tfjs-node');
@@ -52,4 +60,4 @@ app.get('/img2embedding', async function (req, res) {
 });
 
 
-app.listen(9000, () => { })
+app.listen(80, () => { })
